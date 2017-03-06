@@ -1,3 +1,19 @@
+[NOTE]
+====
+I am modifying this
+for use in a workflow of optionally taking asciidoc slide content
+from AsciidocFX (which munges extensions, e.g. graphviz)
+
+.ToDo:
+- [ ] clean up AsciidocFX extension insertions (e.g. graphviz) so
+     it works properly w/ ruby-based asciidoctor extensions;
+- [ ] ensure (check) proper components are installed;
+- [ ] unify into one bash script
+- [ ] clean up content structure and the way its handled.
+
+====
+       
+
 Generate reveal.js slides and PDF from asciidoc in codecentric style on macos
 
 == Once only setup
