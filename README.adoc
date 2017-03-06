@@ -4,7 +4,7 @@ I am modifying this
 for use in a workflow of optionally taking asciidoc slide content
 from AsciidocFX (which munges extensions, e.g. graphviz)
 
-ToDo:
+.ToDo:
 - [ ] clean up AsciidocFX extension insertions (e.g. graphviz) so
      it works properly w/ ruby-based asciidoctor extensions;
 - [ ] ensure (check) proper components are installed;
