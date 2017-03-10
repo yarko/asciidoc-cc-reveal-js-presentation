@@ -1,13 +1,13 @@
 #!/bin/sh
-cd .asciidoctor-reveal.js
+cd lib/asciidoctor-reveal.js
 git pull
-cd ..
-cd .reveal.js
+cd -
+cd lib/reveal.js
 git pull
-cd ..
-cd .decktape
+cd -
+cd lib/decktape
 git pull
-curl -L http://astefanutti.github.io/decktape/downloads/phantomjs-osx-cocoa-x86-64 -o bin/phantomjs
+curl -L https://github.com/astefanutti/decktape/releases/download/v1.0.0/phantomjs-linux-x86-64 -o bin/phantomjs
 chmod +x bin/phantomjs
-cd ..
+cd -
 git pull
