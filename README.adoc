@@ -9,7 +9,11 @@ from AsciidocFX (which munges extensions, e.g. graphviz)
      it works properly w/ ruby-based asciidoctor extensions;
 - [ ] ensure (check) proper components are installed;
 - [ ] unify into one bash script
+- [ ] merge / compare to what this is doing:
+    * https://github.com/obilodeau/presentation-revealjs-starter
+    * which comes linked from: https://github.com/asciidoctor/asciidoctor-reveal.js   
 - [ ] clean up content structure and the way its handled.
+
 
 ====
        
